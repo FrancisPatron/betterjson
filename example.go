@@ -1,10 +1,11 @@
 package main
 
 import (
-	betterjson "betterjson/pkg"
 	"fmt"
 	"log"
 	"os"
+
+	betterjson "github.com/FrancisPatron/betterjson/pkg"
 )
 
 type Metadata struct {
@@ -40,7 +41,7 @@ type ExampleData struct {
 }
 
 func main() {
-	// Read example_input.json
+	// Read example.json
 	data, err := os.ReadFile("example.json")
 	if err != nil {
 		log.Fatalf("Failed to read example.json: %v", err)
