@@ -1,0 +1,4 @@
+{
+    "comment": "This is not a // comment",
+    "value": 42 // This is a comment
+}
