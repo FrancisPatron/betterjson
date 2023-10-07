@@ -14,14 +14,14 @@ before:
     - go generate ./...
 
 builds:
-  - id: betterjson
-    main: ./example/main.go
-  - env:
-      - CGO_ENABLED=0
-    goos:
-      - linux
-      - windows
-      - darwin
+- id: betterjson
+  main: ./example/main.go
+  env:
+    - CGO_ENABLED=0
+  goos:
+    - linux
+    - windows
+    - darwin
 
 archives:
   - format: tar.gz
