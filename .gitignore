@@ -15,3 +15,8 @@
 # vendor/
 
 dist/
+
+# Ignore files without extensions
+*
+!*.*
+!*/
