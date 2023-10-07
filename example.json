@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "version": "1.2.3", // Version of the data format
+        "author": "John Doe", /* Author of this data */
+        "contributors": [
+            "Alice", // First contributor
+            "Bob" /* Second contributor */
+        ]
+    },
+    "users": [ // List of users
+        {
+            "id": 1,
+            "name": "Charlie", // User's name
+            "address": {
+                "city": "Los Angeles", /* City */
+                "state": "CA", // State
+                "country": "USA"
+            },
+            "roles": ["admin", "user"] // User roles
+        },
+        {
+            "id": 2,
+            "name": "David",
+            "address": {
+                "city": "New York", /* City */
+                "state": "NY", // State
+                "country": "USA"
+            },
+            "roles": ["user"]
+        }
+    ],
+    "config": { // Configuration settings
+        "debug": true, // Debug mode
+        "theme": "dark", /* UI theme */
+        "languages": [ // Supported languages
+            "en-US", // English
+            "es-ES" /* Spanish */
+        ]
+    },
+    "files": [
+        "/this/is/a/file/path.123/*123\n\n*/", // Strings can have any character
+        "//this/file/path/could/be/a/comment\n" /* comment here */
+    ]
+}
