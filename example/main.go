@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	betterjson "github.com/FrancisPatron/betterjson/pkg"
+	"github.com/FrancisPatron/betterjson"
 )
 
 type Metadata struct {
