@@ -14,6 +14,8 @@ before:
     - go generate ./...
 
 builds:
+  - id: betterjson
+    main: ./example/main.go
   - env:
       - CGO_ENABLED=0
     goos:
